@@ -9,3 +9,28 @@
 5. [X] Требуется реализовать логирование для целей отладки и мониторинга
 6. [X] Требуется разработать микросервис М1 для обработки входящих HTTP запросов 7. Требуется разработать микросервис М2 для обработки заданий из RabbitMQ 
 
+## How to run in local environment
+1
+```
+git clone git@github.com:kimsh0117/green-api.git
+```
+2
+```
+npm install
+```
+3
+```
+docker-compose up -d
+```
+4
+```
+npm run serve-m1
+```
+5
+```
+npm run serve-m2
+```
+6
+```
+curl "http://localhost:3001/"
+```
