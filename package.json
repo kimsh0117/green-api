@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "amqplib": "^0.10.3",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1"
+  },
+  "scripts": {
+    "serve-m1": "nodemon ./servers/M1.js",
+    "serve-m2": "nodemon ./servers/M2.js"
+  }
+}
